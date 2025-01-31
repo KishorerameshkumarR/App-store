@@ -1,0 +1,21 @@
+.open-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo-container {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logo-container:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
